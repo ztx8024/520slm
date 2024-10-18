@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Helvetica Neue', sans-serif;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    #heartImage {
+      display: block;
+      margin: 50px auto 0;
+      width: 300px;
+      height: auto;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    #heartImage:hover {
+      transform: scale(1.1);
+    }
+
+    /* 添加动态光影效果 */
+   .glow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+      animation: glowAnimation 5s ease-in-out infinite;
+    }
+
+    @keyframes glowAnimation {
+      0% {
+        opacity: 0.2;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 0.2;
+      }
+    }
+
+    /* 定义文字闪动动画（调整后的速度） */
+   .textBlink {
+      animation: textBlink 0.8s ease-in-out infinite;
+    }
+
+    @keyframes textBlink {
+      0% {
+        opacity: 1;
+      }
+      45% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* 第一行文字样式 */
+   .line1 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 36px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 0s;
+    }
+
+    /* 第二行文字样式 */
+   .line2 {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 0.2s;
+    }
+
+    /* 第三行文字样式 */
+   .line3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 0.4s;
+    }
+
+    /* 第四行文字样式 */
+   .line4 {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 0.6s;
+    }
+
+    /* 第五行文字样式 */
+   .line5 {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 0.8s;
+    }
+
+    /* 第六行文字样式 */
+   .line6 {
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 1s;
+    }
+
+    /* 第七行文字样式 */
+   .line7 {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 1.2s;
+    }
+
+    /* 第八行文字样式 */
+   .line8 {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      color: #ff69b4;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      animation-delay: 1.4s;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="glow"></div>
+  <img src=https://vcg02.cfp.cn/creative/vcg/800/new/VCG211335684707.jpg alt="表白全世界最好的小姐姐苏丽敏" id="heartImage">
+  <a href="your_link_here" target="_blank">
+    <span class="line1 textBlink">表白</span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line2 textBlink"></span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line3 textBlink">全世界最好的小姐姐</span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line4 textBlink">苏丽敏</span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line5 textBlink"></span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line6 textBlink">这是你的专属网站</span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line7 textBlink"></span>
+  </a>
+  <a href="your_link_here" target="_blank">
+    <span class="line8 textBlink"></span>
+  </a>
+</body>
+
+</html>
